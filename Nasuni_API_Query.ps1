@@ -38,7 +38,7 @@ $sLogName = "Nasuni_settings_QR.log"
 $sLogFile = Join-Path -Path $sLogPath -ChildPath $sLogName
 
 #Nasuni NMC Server
-$nasuninmc='ccsycnuinmc.lc.local'
+$nasuninmc='NMCName'
 #Inital Logon to get Token
 $parameters = @{username = "adminadmin";
   password = "adminpassword";} 
